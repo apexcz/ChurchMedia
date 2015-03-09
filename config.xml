@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.cyrielo.gospelpillars.gobox" 
+        version="0.0.1" 
+        xmlns="http://www.w3.org/ns/widgets"  
+        xmlns:cdv="http://cordova.apache.org/ns/1.0"  
+        xmlns:gap= "http://phonegap.com/ns/1.0">
+    <gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.0" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" version="0.1.0" />
+    <gap:plugin name="org.apache.cordova.network-information" version="0.2.7" />
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <name>GoBox</name>
+    <description>
+        This is the official Gobox mobile app for gospel plillars church. For sharing of testimony, sending  prayer request.
+         and lots more
+    </description>
+    <author email="cyrielo911@gmail.com" href="http://cyrielo.com">
+        Cyrielo development
+    </author>
+    <content src="index.html" />
+    <access origin="*"/>
+    <icon src="res/icon.png" />
+    <gap:splash src="res/splash/splash-portrait-768x1024.png" />
+<!-- <platform name="android">
+    <splash src="res/splash/splash-portrait-768x1024.png" density="land-hdpi"/>
+    <splash src="res/splash/splash-portrait-768x1024.png" density="land-mdpi"/>
+    <splash src="res/splash/splash-portrait-768x1024.png" density="land-xhdpi"/>
+
+    <splash src="res/splash/splash-portrait-768x1024.png" density="port-hdpi"/>
+    <splash src="res/splash/splash-portrait-768x1024.png" density="port-ldpi"/>
+    <splash src="res/splash/splash-portrait-768x1024.png" density="port-mdpi"/>
+    <splash src="res/splash/splash-portrait-768x1024.png" density="port-xhdpi"/>
+</platform>
+<platform name="ios">
+    <splash src="res/splash/splash-portait-320x480.png" width="320" height="480"/>
+    <splash src="res/splash/splash-portrait-768x1024.png" width="768" height="1024"/>
+</platform>
+<platform name="wp8">
+    <splash  src="res/splash/splash-portrait-768x1024.png"  width="768" height="1024"/>
+</platform>
+<platform name="windows8">
+   <splash  src="res/splash/splash-portrait-768x1024.png" width="620" height="300"/>
+</platform>
+<platform name="blackberry10">
+    <rim:splash src="res/splash/splash-portrait-768x1024.png"/>
+</platform> -->
+
+    <preference name="SplashScreen" value="res/splash/splash-portrait-768x1024.png" />
+    <preference name="SplashScreenDelay" value="5000" />
+</widget>

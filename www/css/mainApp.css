@@ -1,0 +1,488 @@
+@font-face {
+	font-family: proxima;
+	src: url('fonts/ProximaNova-Regular.otf');
+}
+*
+{
+	padding	: 	0px;
+	margin	:	0px;
+	font-family: proxima;
+}
+a
+{
+	color:inherit !important;
+	text-decoration: none !important;
+}
+html
+{
+/*	background: url('../img/HomeIcons/Background.png') no-repeat center center fixed;
+	background-size: cover;*/
+	/*background: -webkit-radial-gradient(  gold , darkred );*/
+
+	/*	min-height: 100%;
+        width:100%;*/
+}
+body
+{
+	background: url('../img/HomeIcons/Background.png')  no-repeat center center fixed;
+	background-size: cover;
+	float: left;
+	width:100%;
+	min-height: 100%;
+}
+#icon img
+{
+	width: 100%;
+	height: auto;
+}
+header
+{
+	height: 45px;
+	background: -moz-radial-gradient(#cd5c5c, rgba(220, 20, 60,0.8));
+	background: -webkit-radial-gradient(#cd5c5c, rgba(220, 20, 60,0.8));
+	background: -o-radial-gradient(#cd5c5c, rgba(220, 20, 60,0.8));
+	background: -mso-radial-gradient(#cd5c5c, rgba(220, 20, 60,0.8));
+	text-align: center;
+	color: white;
+	position: fixed;
+	width: 100%;
+	top:0px;
+	left:0px;
+	z-index:1;
+}
+header #home
+{
+	padding: 15px 0px 0px 7px;
+}
+footer
+{
+	position: fixed;
+	bottom:0px;
+	border:1px solid;
+	height: 40px;
+	color:rgb(255,255,255);
+	width: 100%;
+	height: 40px;
+	border:1px solid transparent;
+	position: fixed;
+	bottom: 0;
+	background: -moz-radial-gradient(#cd5c5c, rgba(220, 20, 60,0.8));
+	background: -webkit-radial-gradient(#cd5c5c, rgba(220, 20, 60,0.8));
+	background: -o-radial-gradient(#cd5c5c, rgba(220, 20, 60,0.8));
+	background: -mso-radial-gradient(#cd5c5c, rgba(220, 20, 60,0.8));
+	border-top:1px solid rgba(0,0,0,0.3);
+	box-shadow: inset 0 1px 1px rgba(255,255,255,0.3),
+	inset 0 10px 1px rgba(255,255,255,0.2),
+	inset 0 10px 20px rgba(255,255,255,0.25),
+	inset 0 -15px 30px rgba(0,0,0,0.3);
+	text-align: center;
+}
+footer div
+{
+	margin: 10px;
+}
+nav
+{
+	display: inline-block;
+	width: 100%;
+}
+
+nav ul
+{
+	list-style: none;
+	margin: 2px;
+	font-size: 13px;
+	text-align:center;
+	text-indent:center;
+	float:left;
+}
+nav ul li
+{
+	display: inline-block;
+	margin: 16px 7px 0 7px;
+	float:left;
+	width: 62px;
+	text-align: center;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size:12px;
+
+}
+nav ul li #text
+{
+	display: none;
+}
+nav ul li:hover
+{
+}
+nav ul li #icon
+{
+	float: left;
+}
+nav ul li #icon img
+{
+	border-radius: 4px;
+}
+header #home
+{
+	float: left;
+	color: white;
+	height: 45px;
+	width: 55px;
+	padding: 0px;
+	cursor: pointer;
+}
+header #home:hover
+{
+	background: rgba(0,0,0,0.3);
+}
+header #home #appNav
+{
+	margin-top: -1px;
+	margin-left: -6px;
+	float: left;
+	width: 20px;
+	height: 45px;
+}
+header #home #appIcon
+{
+	margin-right: 0px;
+	margin-top: -3px;
+	float: right;
+	width: 40px;
+	height: 30px;
+}
+header #home #appNav img
+{
+	width: 100%;
+	height: 100%;
+}
+header #home #appIcon img
+{
+	width: 100%;
+	height: auto;
+}
+#index
+{
+	position: relative;
+	max-width: 900px;
+	min-width: 300px;
+	margin: auto;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+#share_testimony
+{
+	border: 1px solid transparent;
+}
+#share_testimony #banner
+{
+	height: 200px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	background: url('../img/railway_station.jpg') no-repeat;
+	background-size: cover;
+}
+#component_info
+{
+	color: white;
+	float: right;
+	margin: 100px 7px 0px 0px;
+	font-weight: bold;
+	background: rgba(5,5,5,0.6);
+	padding: 14px;
+	border-radius: 5px;
+}
+#share_testimony #banner img
+{
+	width: 100%;
+	height: auto;
+}
+#share_testimony_form
+{
+	overflow: hidden;
+	margin: 4.5px;
+}
+#share_testimony_form input,
+#share_testimony_form select,
+#share_testimony_form textarea
+{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px !important;
+	border: 1px solid rgb(200,200,200);
+	border-radius: 4px;
+	color: rgb(66,66,66);
+	background: rgb(251,251,251);
+}
+
+#share_testimony_form textarea
+{
+	height: 150px;
+	max-height: 150px;
+}
+#share_testimony_form input[type='submit']
+{
+	background-color: rgb(73, 175, 205);
+	border: 1px solid transparent;
+	border-radius: 4px;
+	background-image: -moz-linear-gradient(center top , rgb(91, 192, 222), rgb(47, 150, 180));
+	background-image: -webkit-linear-gradient(center top , rgb(91, 192, 222), rgb(47, 150, 180));
+	background-image: -o-linear-gradient(center top , rgb(91, 192, 222), rgb(47, 150, 180));
+	background-repeat: repeat-x;
+	color: rgb(255, 255, 255);
+}
+.p_Country,
+s_Country
+{
+	padding: 10px !important;
+}
+
+/*CONTACT US PAGE CSS*/
+#contactUs #MapBanner
+{
+	border-radius: 4px;
+	height: 250px;
+	padding: 4px;
+	margin: 4px 4px 10px 4px;
+}
+#contactUs #MapBanner img
+{
+	border-radius: 4px;
+	width: 100%;
+	height: 100%;
+}
+#contactUs #contacts
+{
+	/*border: 1px solid yellow;*/
+	margin: 4px;
+	text-align: left;
+}
+#contactUs #contacts ul
+{
+	list-style: none;
+}
+#contactUs #contacts ul li
+{
+	border: 1px solid rgb(100,100,100);
+	border-radius: 4px;
+	background: rgba(0,0,0,0.8);
+	padding: 3px;
+	width: 97%;
+	display: block;
+	clear: both;
+	float: left;
+	margin-bottom: 10px;
+}
+#contacts ul li .ImgIcon
+{
+	float: left;
+	/*border: 2px solid green;*/
+}
+#contacts ul li .details
+{
+	float: left;
+}
+.upperDetails
+{
+	/*border: 1px solid green;*/
+	margin: 5px;
+	color: #fff;
+}
+.lowerDetails
+{
+	/*border: 1px solid green;*/
+	margin: 5px;
+	font-style: italic;
+	color: rgb(200,200,200);
+}
+/*OTHER SITES CSS*/
+#sites_list
+{
+	color: rgb(255,255,255);
+}
+#Txtinfo
+{
+	margin: 20px 0px 10px 5px;
+	border: 1px solid transparent;
+	color: #646464;
+	box-shadow: 1px 1px rgba(200, 200, 200, 0.4);
+	border-radius: 2px;
+	background: white;
+	padding: 8px;
+}
+#sites_list ul
+{
+	list-style: none;
+}
+#sites_list ul li
+{
+	border-radius: 2px;
+	padding: 3px;
+	width: 90%;
+	clear: both;
+	display: inline-block;
+	color: #646464;
+	box-shadow: 1px 1px rgba(200, 200, 200, 0.4);
+	background: white;
+	padding: 4px;
+	cursor: pointer;
+	margin: 0px 5px 10px 5px;
+
+}
+#site_info #photo
+{
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+#site_info #photo img
+{
+	width: 100%;
+	height: 100%;
+	border-radius: 40%;
+}
+#site_info
+{
+	float: left;
+	width: 97%;
+}
+#site_info #name
+{
+	float: left;
+	margin: 10px;
+}
+/*ERROR/SUCCESS MESSAGES*/
+#errorMessages
+{
+	display: none;
+	color: rgb(169, 68, 66);
+	text-align: left;
+	margin: 5px;
+	background-color: rgb(242, 222, 222);
+	padding: 5px;
+	border-color: rgb(169, 68, 66);
+	border-radius: 2px;
+}
+#errorMessages ul
+{
+	list-style: none;
+}
+#errorMessages ul li
+{
+	margin-bottom: 5px;
+}
+#successMessage
+{
+	display: none;
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+	text-align: left;
+	padding: 5px;
+	border-radius: 2px;
+	font-size: 12px;
+	margin: 5px;
+}
+
+header center
+{
+	font-variant: small-caps;
+	float:left;
+	margin-top: 8px;
+	font-size: 21px;
+	color: #D4D1F7;
+	text-shadow: 1px 1px 1px #C8C8C7;
+}
+/*About us Page*/
+#about_us
+{
+	position:relative;
+	top: 10px;
+	margin: 5px;
+	color: #C4C4C4;
+	font-size: 14px;
+	text-align: right;
+}
+#about_ministry,
+#about_iwm,
+#about_Isaiah
+{
+	border: 1px solid transparent;
+	background: rgba(0,0,0,0.5);
+	margin: 9px;
+	margin-bottom: 19px;
+	text-align: left;
+	border-radius: 5px;
+	padding: 5px;
+}
+#about_ministry p,
+#about_Isaiah p,
+#about_iwm p,
+{
+	margin-top: 15px;
+	clear: both;
+	display:block;
+}
+#about_iwm article p,
+#about_Isaiah article p,
+#about_ministry article p
+{
+	border: 1px solid transparent;
+	margin-bottom: 5px;
+}
+.BrowserLink
+{
+	cursor:pointer;
+}
+
+/*Banner Style*/
+#ad_banner
+{
+	margin: 7px;
+
+}
+#ad_banner img
+{
+	width: 100%;
+	border-radius: 3px;
+	height: auto;
+}
+#links
+{
+	margin: 10px 0 0 0;
+	display: inline-block;
+	width: 100%;
+	background: rgba(255,255,255,0.9);
+	border: 1px solid transparent;
+	border-radius: 3px;
+}
+#links .link_colum
+{
+	display:inline-block;
+	width: 33%;
+	float: left;
+}
+#links .link_colum ul li
+{
+	list-style: none;
+	/*border: 1px solid red;*/
+	padding: 3px;
+	color: rgb(120,120,120);
+	cursor: pointer;
+	font-size: 13px;
+	border: 1px solid transparent;
+	border-radius: 1px;
+}
+#links .link_colum ul li:hover
+{
+	background: rgb(120,120,120);
+	color: white;
+}
+@media only screen and (min-width: 360px) and (max-width: 360px) {
+	nav ul li
+	{
+		margin-left: 16px;
+	}
+}
